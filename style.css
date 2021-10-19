@@ -15,11 +15,40 @@
     align-items: center;
 }
 
-.main{
+.nav{
+    background-color: midnightblue;
+    color: white;
+    padding: 1%;
+}
+
+.nav h1{
+    margin:0;
+}
+
+.feed{
     padding: 1%;
     border: solid 3px black;
     width: 500px;
     height: 200px;
+    margin: 10px;
+}
+
+.user{
+    flex-direction:column;
+    justify-content: center;
+    padding: 1%;
+    border: solid 3px black;
+    width: 100px;
+    height: 200px;
+    margin: 10px;
+}
+
+.user img{
+    border-radius: 50%;
+}
+
+.user img, h2, a{
+    margin:10px;
 }
 
 .header {
